@@ -1,7 +1,6 @@
 .HomePage{
     width: 100%;
 }
-
 .HomeHeader {
     background-image: url('../../assets/backgroundhome.png');
     background-repeat: no-repeat;
@@ -32,8 +31,35 @@
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: .1rem;
-  
+    margin-left: 350px;
+    margin-top: 20px;
 }
 button:hover{
   background: rgb(107, 5, 107);
+}
+
+.menu-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: #6a3893;
+  color: white;
+  cursor: pointer;
+}
+.menu-list h1{
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.menu{
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin-left: 25px;
+}
+@media screen and (max-width: 600px) {
+  .home-banner-text button{
+    margin-left: 130px;
+  }
 }
