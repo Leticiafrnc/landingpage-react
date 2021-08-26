@@ -4,7 +4,11 @@
 
   
   .AboutHeader {
-    background-color: white;
+    background-image: url('../../assets/homebackground2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: none;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

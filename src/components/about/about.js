@@ -6,7 +6,9 @@ function About() {
   return (
     <div className="AboutPage">
       <header className="AboutHeader">
-      <h1>About</h1>
+        <div className="banner-text">
+          <h1>Sobre</h1>
+      </div>
       </header>
         
     </div>

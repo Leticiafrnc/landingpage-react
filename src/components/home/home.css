@@ -1,17 +1,39 @@
 .HomePage{
-    text-align: center;
-  }
+    width: 100%;
+}
 
-  
-  .HomeHeader {
-    background-color: #282c34;
+.HomeHeader {
+    background-image: url('../../assets/backgroundhome.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: none;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-
+}
+.home-banner-text h1{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.home-banner-text p{
+  color: white;
+  text-align: center;
+}
+.home-banner-text button{
+  color: #fff;
+    background: #6a3893;
+    border: 0;
+    border-radius: 8px;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: .1rem;
   
+}
+button:hover{
+  background: rgb(107, 5, 107);
+}
